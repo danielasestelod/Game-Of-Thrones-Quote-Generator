@@ -1,7 +1,7 @@
 from django.contrib import admin
 from . import models
 from import_export.admin import ImportExportModelAdmin
-# Register your models here.
+
 class ActorAdmin(ImportExportModelAdmin,admin.ModelAdmin):
     ...
 class QuoteAdmin(ImportExportModelAdmin,admin.ModelAdmin):

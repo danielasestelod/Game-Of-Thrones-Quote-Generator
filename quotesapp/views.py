@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from .models import Actor,Quote
 from django.contrib import messages
 import random
-# Create your views here.
+
 def HomePage(request):
     all_actors=Actor.objects.all()
     if request.method=='POST':
